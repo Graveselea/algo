@@ -13,7 +13,7 @@ export default function FizzBuzz() {
     let value = "";
     let id = "";
 
-    if (i % 15 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
       value = "FizzBuzz";
       id = "fizzbuzz";
     } else if (i % 3 === 0) {
